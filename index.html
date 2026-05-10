@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studora — Premium Academic Services</title>
+  <meta name="description" content="Studora offers expert academic services including essay writing, research papers, thesis support, tutoring, and more. Professional academic help delivered fast." />
+  <meta name="keywords" content="academic help, essay writing, research paper, thesis, tutoring, college services, assignment help" />
+  <meta name="author" content="Studora" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Studora — Premium Academic Services" />
+  <meta property="og:description" content="Expert academic help delivered fast. Browse our services and apply today." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourdomain.github.io/studora/" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+
+  <!-- LOADING SCREEN -->
+  <div id="loader" class="loader">
+    <div class="loader-inner">
+      <div class="loader-logo">Studora</div>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- SCROLL TO TOP -->
+  <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- NOTIFICATION -->
+  <div id="notification" class="notification" role="alert"></div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-icon">S</span>
+        <span class="logo-text">Studora</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+          <i class="fas fa-moon" id="themeIcon"></i>
+        </button>
+        <a href="#apply" class="btn-apply nav-apply">Apply Now</a>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-orb orb-1"></div>
+      <div class="hero-orb orb-2"></div>
+      <div class="hero-orb orb-3"></div>
+      <div class="hero-grid"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-badge">
+        <i class="fas fa-star"></i>
+        <span>Trusted by 2,000+ Students Worldwide</span>
+      </div>
+      <h1 class="hero-title">
+        Academic Excellence,<br />
+        <span class="hero-highlight">Delivered To You</span>
+      </h1>
+      <p class="hero-subtitle">
+        From essays to full thesis projects — Studora connects you with expert academic professionals who help you achieve the grades you deserve.
+      </p>
+      <div class="hero-actions">
+        <a href="#services" class="btn-primary">
+          <span>Browse Services</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="#apply" class="btn-secondary">
+          <i class="fas fa-paper-plane"></i>
+          <span>Apply Now</span>
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number" data-target="2000">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Students Helped</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="98">0</span><span class="stat-plus">%</span>
+          <span class="stat-label">Satisfaction Rate</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="50">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Expert Specialists</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="24">0</span><span class="stat-plus">/7</span>
+          <span class="stat-label">Support Available</span>
+        </div>
+      </div>
+      <div class="hero-trust">
+        <span>Trusted by students from:</span>
+        <div class="trust-badges">
+          <span class="trust-badge"><i class="fas fa-university"></i> MIT</span>
+          <span class="trust-badge"><i class="fas fa-university"></i> Oxford</span>
+          <span class="trust-badge"><i class="fas fa-university"></i> Harvard</span>
+          <span class="trust-badge"><i class="fas fa-university"></i> Stanford</span>
+          <span class="trust-badge"><i class="fas fa-university"></i> & more</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What We Offer</span>
+        <h2 class="section-title">Our Academic Services</h2>
+        <p class="section-subtitle">Professional academic support across every subject and every level — tailored exactly to your needs.</p>
+      </div>
+
+      <!-- SEARCH + FILTER -->
+      <div class="services-controls">
+        <div class="search-box">
+          <i class="fas fa-search"></i>
+          <input type="text" id="serviceSearch" placeholder="Search services..." aria-label="Search services" />
+          <button id="clearSearch" class="clear-search" aria-label="Clear search"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="filter-tabs" id="filterTabs" role="tablist">
+          <button class="filter-tab active" data-cat="all" role="tab">All Services</button>
+        </div>
+      </div>
+
+      <!-- SERVICES GRID -->
+      <div class="services-grid" id="servicesGrid">
+        <!-- Filled by JS -->
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+      </div>
+
+      <div class="no-results" id="noResults" style="display:none;">
+        <i class="fas fa-search"></i>
+        <p>No services found. Try a different keyword.</p>
+      </div>
+
+      <!-- PAGINATION -->
+      <div class="pagination" id="pagination"></div>
+    </div>
+  </section>
+
+  <!-- ===== PRICING HIGHLIGHT ===== -->
+  <section class="pricing-section" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Transparent Pricing</span>
+        <h2 class="section-title">Affordable Academic Help</h2>
+        <p class="section-subtitle">No hidden fees. Every service is priced fairly starting from just $1. Complex projects are quoted individually.</p>
+      </div>
+      <div class="pricing-cards">
+        <div class="pricing-card">
+          <div class="pricing-icon"><i class="fas fa-file-alt"></i></div>
+          <h3>Quick Tasks</h3>
+          <div class="pricing-range">$1 – $20</div>
+          <p>Short assignments, summaries, translations, and quick edits.</p>
+          <a href="#services" class="btn-outline">Browse</a>
+        </div>
+        <div class="pricing-card featured">
+          <div class="pricing-badge">Most Popular</div>
+          <div class="pricing-icon"><i class="fas fa-book-open"></i></div>
+          <h3>Standard Projects</h3>
+          <div class="pricing-range">$20 – $60</div>
+          <p>Essays, research papers, presentations, and tutoring sessions.</p>
+          <a href="#services" class="btn-primary">Browse</a>
+        </div>
+        <div class="pricing-card">
+          <div class="pricing-icon"><i class="fas fa-graduation-cap"></i></div>
+          <h3>Major Projects</h3>
+          <div class="pricing-range">$60+</div>
+          <p>Thesis, dissertations, full-course support, and complex research.</p>
+          <a href="#apply" class="btn-outline">Get Quote</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Student Reviews</span>
+        <h2 class="section-title">What Students Say</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"Studora helped me finish my thesis on time. The quality was incredible and the team was super responsive. Highly recommend!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">A</div>
+            <div><strong>Ahmed K.</strong><span>University of Jordan</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"I needed a research paper in 48 hours and Studora delivered perfectly. Great formatting, proper citations, exactly what I asked."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">S</div>
+            <div><strong>Sara M.</strong><span>Cairo University</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"The tutoring sessions boosted my GPA significantly. The tutor explained concepts in a very clear and engaging way."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">L</div>
+            <div><strong>Lina T.</strong><span>AUB Lebanon</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"Fast, professional, affordable. My presentation looked 10x better than my classmates. Will definitely use again."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">O</div>
+            <div><strong>Omar F.</strong><span>Birzeit University</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">FAQ</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>How do I submit a request?</span>
+            <i class="fas fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Simply browse our services, click "Apply Now" on the service you need, fill in your details and requirements, and submit. We'll contact you within a few hours.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>How long does delivery take?</span>
+            <i class="fas fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Delivery time depends on the service complexity. Simple tasks can be done within 24 hours. Research papers and thesis projects take longer and are discussed individually.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Is my information kept private?</span>
+            <i class="fas fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutely. Your personal information is never shared with any third party. We use your contact details only to communicate about your order.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Can I request revisions?</span>
+            <i class="fas fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! We offer revisions until you're satisfied with the result. Our goal is your complete satisfaction.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>What payment methods do you accept?</span>
+            <i class="fas fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>We discuss payment methods directly after you apply. We support various methods based on your location. Contact us via WhatsApp for details.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Do you handle urgent requests?</span>
+            <i class="fas fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, we do! Urgent requests are handled with priority. Please mention your deadline when applying and we'll do our best to meet it.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== APPLY FORM ===== -->
+  <section class="apply-section" id="apply">
+    <div class="container">
+      <div class="apply-wrapper">
+        <div class="apply-info">
+          <span class="section-tag">Get Started</span>
+          <h2>Apply For a Service</h2>
+          <p>Fill in the form and our team will reach out to you within a few hours with all the details you need.</p>
+          <div class="apply-features">
+            <div class="apply-feature"><i class="fas fa-check-circle"></i><span>Fast Response — within hours</span></div>
+            <div class="apply-feature"><i class="fas fa-check-circle"></i><span>No commitment required</span></div>
+            <div class="apply-feature"><i class="fas fa-check-circle"></i><span>Free consultation</span></div>
+            <div class="apply-feature"><i class="fas fa-check-circle"></i><span>100% confidential</span></div>
+          </div>
+          <div class="apply-contact">
+            <a href="https://wa.me/970XXXXXXXXX" class="contact-chip" target="_blank" rel="noopener">
+              <i class="fab fa-whatsapp"></i> WhatsApp Us
+            </a>
+            <a href="mailto:hello@studora.com" class="contact-chip" target="_blank" rel="noopener">
+              <i class="fas fa-envelope"></i> Email Us
+            </a>
+          </div>
+        </div>
+        <div class="apply-form-box">
+          <form id="applyForm" novalidate>
+            <div class="form-group">
+              <label for="fullName">Full Name <span class="required">*</span></label>
+              <input type="text" id="fullName" name="fullName" placeholder="Your full name" required autocomplete="name" />
+              <span class="field-error" id="nameError"></span>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone / WhatsApp <span class="required">*</span></label>
+              <input type="tel" id="phone" name="phone" placeholder="+970 XX XXX XXXX" required autocomplete="tel" />
+              <span class="field-error" id="phoneError"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address <span class="optional">(optional)</span></label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="email" />
+              <span class="field-error" id="emailError"></span>
+            </div>
+            <div class="form-group">
+              <label for="serviceSelect">Service Required <span class="required">*</span></label>
+              <div class="select-wrapper">
+                <select id="serviceSelect" name="service" required>
+                  <option value="">— Select a service —</option>
+                </select>
+                <i class="fas fa-chevron-down select-icon"></i>
+              </div>
+              <span class="field-error" id="serviceError"></span>
+            </div>
+            <div class="form-group">
+              <label for="message">Details / Requirements <span class="required">*</span></label>
+              <textarea id="message" name="message" rows="4" placeholder="Describe your project, deadline, subject, or any specific requirements..." required></textarea>
+              <span class="field-error" id="messageError"></span>
+            </div>
+            <input type="hidden" id="serviceId" name="serviceId" />
+            <input type="hidden" id="servicePrice" name="servicePrice" />
+            <button type="submit" class="btn-submit" id="submitBtn">
+              <span id="submitText">Send Application</span>
+              <div class="btn-loader" id="btnLoader" style="display:none;">
+                <div class="spinner"></div>
+              </div>
+              <i class="fas fa-paper-plane" id="submitIcon"></i>
+            </button>
+          </form>
+          <div class="form-success" id="formSuccess" style="display:none;">
+            <div class="success-icon"><i class="fas fa-check"></i></div>
+            <h3>Application Sent!</h3>
+            <p>We've received your request and will contact you very soon. Thank you for choosing Studora!</p>
+            <button onclick="resetForm()" class="btn-outline">Submit Another</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Reach Us</span>
+        <h2 class="section-title">Contact Studora</h2>
+      </div>
+      <div class="contact-grid">
+        <a href="https://wa.me/970XXXXXXXXX" class="contact-card" target="_blank" rel="noopener">
+          <div class="contact-card-icon whatsapp"><i class="fab fa-whatsapp"></i></div>
+          <h3>WhatsApp</h3>
+          <p>+970 XX XXX XXXX</p>
+          <span>Chat with us directly</span>
+        </a>
+        <a href="mailto:hello@studora.com" class="contact-card" target="_blank" rel="noopener">
+          <div class="contact-card-icon email"><i class="fas fa-envelope"></i></div>
+          <h3>Email</h3>
+          <p>hello@studora.com</p>
+          <span>We reply within hours</span>
+        </a>
+        <div class="contact-card">
+          <div class="contact-card-icon hours"><i class="fas fa-clock"></i></div>
+          <h3>Availability</h3>
+          <p>24 / 7</p>
+          <span>Always here for you</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <span class="logo-icon">S</span>
+          <span class="logo-text">Studora</span>
+        </div>
+        <p>Premium academic services for students who demand excellence. Professional help, delivered fast.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://wa.me/970XXXXXXXXX" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#apply">Apply Now</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Services</h4>
+        <ul id="footerServicesList">
+          <li><a href="#services">Essay Writing</a></li>
+          <li><a href="#services">Research Papers</a></li>
+          <li><a href="#services">Thesis Help</a></li>
+          <li><a href="#services">Tutoring</a></li>
+          <li><a href="#services">Translation</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Refund Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Studora. All rights reserved.</p>
+      <p>Built with <i class="fas fa-heart" style="color:var(--gold)"></i> for academic excellence.</p>
+    </div>
+  </footer>
+
+  <!-- ===== SERVICE MODAL ===== -->
+  <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose" aria-label="Close modal"><i class="fas fa-times"></i></button>
+      <div class="modal-image-wrap">
+        <img id="modalImage" src="" alt="" />
+        <div class="modal-category-badge" id="modalCategory"></div>
+      </div>
+      <div class="modal-content">
+        <h2 id="modalTitle"></h2>
+        <div class="modal-meta">
+          <span id="modalPrice" class="modal-price"></span>
+          <span id="modalDelivery" class="modal-delivery"><i class="fas fa-clock"></i> <span></span></span>
+        </div>
+        <p id="modalDescription"></p>
+        <div class="modal-features" id="modalFeatures"></div>
+        <div class="modal-actions">
+          <button class="btn-primary" id="modalApply">Apply for This Service</button>
+          <a href="https://wa.me/970XXXXXXXXX" class="btn-whatsapp" target="_blank" rel="noopener">
+            <i class="fab fa-whatsapp"></i> Ask via WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

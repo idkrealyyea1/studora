@@ -19,6 +19,24 @@
     "active": true
   },
   {
+  "id": "s2213",
+  "title": "hacker",
+  "description": "hack wifi networks",
+  "longDescription": "you can hack any fuc** netwotrk with this",
+  "category": "Writing",
+  "emoji": "🌐",
+  "price": "From $15",
+  "priceValue": 15,
+  "deliveryTime": "24 – 48 hours",
+  "features": [
+    "Feature one",
+    "Feature two",
+    "Feature three"
+  ],
+  "active": true
+}
+
+  {
     "id": "s002",
     "title": "Research Paper",
     "description": "In-depth, well-researched academic papers with proper structure, citations, and formatting.",
